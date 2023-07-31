@@ -1,0 +1,170 @@
+body {
+    background-color: black;
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.9;    
+    display:flex; 
+    flex-direction: column;
+    font-size: 22px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 68px; 
+    border-bottom: 1px solid seashell;
+}
+
+nav img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav li {
+    display: inline-flex;    
+    margin: 0 10px;
+    text-decoration: underline;
+ }
+
+.our-mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+ }
+
+ .our-mission img {
+    width: 1200px;
+    height: 700px;
+ }
+
+.texte {
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    width: 1200px;
+   
+ }
+
+.title-month {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+
+ .title-month h2 {
+    margin-bottom: -10px;
+ }
+
+.month1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.item {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    
+ }
+
+ .month2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 70px;
+    flex-wrap: wrap;
+ }
+
+ .item2 {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+.item2 img {
+    width: 100%;
+    height: auto;    
+ }
+.locations-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.title-locations {
+    position: absolute;
+    margin-left: 675px;
+    margin-top: 150px;    
+}
+
+ .locations-background {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+.locations-background img{
+    width: 1200px;
+    height: 500px;
+}
+
+.locations {
+    display: flex;
+    position: absolute;
+    margin-top: 223px;
+    margin-left: 260px;    
+}
+
+.Downtown {
+    width: 300px;
+    background-color: black;
+    text-align: center;
+    margin-right: 40px;
+    opacity: 1;
+    height: 250px;
+}
+
+.east-bayside {
+    width: 300px;
+    background-color: black;
+    text-align: center;
+    margin-right: 40px;
+    opacity: 1;
+}
+
+.Oakdale {
+    width: 300px;
+    background-color: black;
+    text-align: center;
+    opacity: 1;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.copyright {
+    margin-left: 20px;
+}
